@@ -1,0 +1,9 @@
+[submodule "hls_lfcd_lds_driver"]
+	path = hls_lfcd_lds_driver
+	url = https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
+[submodule "rosserial"]
+	path = rosserial
+	url = https://github.com/ros-drivers/rosserial.git
+[submodule "ros_astra_camera"]
+	path = ros_astra_camera
+	url = https://github.com/orbbec/ros_astra_camera.git
