@@ -1,5 +1,5 @@
 <launch>
-   <node pkg="vex_move_base" name="tf_broad" type="wheel_odom.py"/>
+   <node pkg="vex_move_base" name="tf_broad" type="tf_publisher.py"/>
    <include file="$(find hls_lfcd_lds_driver)/launch/hlds_laser.launch"/>
    <node pkg="rosserial_arduino" type="serial_node.py" name="serial_node">
     <param name="port" value="/dev/ttyS1"/>
